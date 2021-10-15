@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import {
   Switch,
-  HashRouter,
+  Route,
   useLocation,
 } from 'react-router-dom';
 
@@ -35,43 +35,43 @@ function App() {
     });
   });
 
-  // useEffect(() => {
-  //   document.querySelector('html').style.scrollBehavior = 'auto'
-  //   window.scroll({ top: 0 })
-  //   document.querySelector('html').style.scrollBehavior = ''
-  //   focusHandling('outline');
-  // }, [location.pathname]); // triggered on route change
+  useEffect(() => {
+    document.querySelector('html').style.scrollBehavior = 'auto'
+    window.scroll({ top: 0 })
+    document.querySelector('html').style.scrollBehavior = ''
+    focusHandling('outline');
+  }, [location.pathname]); // triggered on route change
 
   return (
     <>
       <Switch>
-        <HashRouter exact path="/">
+        <Route exact path="/">
           <Home />
-        </HashRouter>
-        <HashRouter path="/features">
+        </Route>
+        <Route path="/features">
           <Features />
-        </HashRouter>
-        <HashRouter path="/pricing">
+        </Route>
+        <Route path="/pricing">
           <Pricing />
-        </HashRouter>
-        <HashRouter path="/blog">
+        </Route>
+        <Route path="/blog">
           <Blog />
-        </HashRouter>
-        <HashRouter path="/blog-post">
+        </Route>
+        <Route path="/blog-post">
           <BlogPost />
-        </HashRouter>
-        <HashRouter path="/about">
+        </Route>
+        <Route path="/about">
           <About />
-        </HashRouter>
-        <HashRouter path="/contact">
+        </Route>
+        <Route path="/contact">
           <Contact />
-        </HashRouter>
-        <HashRouter path="/help">
+        </Route>
+        <Route path="/help">
           <Help />
-        </HashRouter>
-        <HashRouter path="*">
+        </Route>
+        <Route path="*">
           <PageNotFound />
-        </HashRouter>
+        </Route>
       </Switch>
     </>
   );
