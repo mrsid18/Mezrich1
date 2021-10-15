@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import {
   Switch,
-  Route,
-  useLocation
+  HashRouter,
+  useLocation,
 } from 'react-router-dom';
 
 import './css/style.scss';
@@ -35,43 +35,43 @@ function App() {
     });
   });
 
-  useEffect(() => {
-    document.querySelector('html').style.scrollBehavior = 'auto'
-    window.scroll({ top: 0 })
-    document.querySelector('html').style.scrollBehavior = ''
-    focusHandling('outline');
-  }, [location.pathname]); // triggered on route change
+  // useEffect(() => {
+  //   document.querySelector('html').style.scrollBehavior = 'auto'
+  //   window.scroll({ top: 0 })
+  //   document.querySelector('html').style.scrollBehavior = ''
+  //   focusHandling('outline');
+  // }, [location.pathname]); // triggered on route change
 
   return (
     <>
       <Switch>
-        <Route exact path="/">
+        <HashRouter exact path="/">
           <Home />
-        </Route>
-        <Route path="/features">
+        </HashRouter>
+        <HashRouter path="/features">
           <Features />
-        </Route>
-        <Route path="/pricing">
+        </HashRouter>
+        <HashRouter path="/pricing">
           <Pricing />
-        </Route>
-        <Route path="/blog">
+        </HashRouter>
+        <HashRouter path="/blog">
           <Blog />
-        </Route>
-        <Route path="/blog-post">
+        </HashRouter>
+        <HashRouter path="/blog-post">
           <BlogPost />
-        </Route>
-        <Route path="/about">
+        </HashRouter>
+        <HashRouter path="/about">
           <About />
-        </Route>
-        <Route path="/contact">
+        </HashRouter>
+        <HashRouter path="/contact">
           <Contact />
-        </Route>
-        <Route path="/help">
+        </HashRouter>
+        <HashRouter path="/help">
           <Help />
-        </Route>
-        <Route path="*">
+        </HashRouter>
+        <HashRouter path="*">
           <PageNotFound />
-        </Route>
+        </HashRouter>
       </Switch>
     </>
   );
