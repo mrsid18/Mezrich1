@@ -1,0 +1,26 @@
+:root{
+    --pageHeight: 1000px;   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#home{
+  background-image: url("../img/rocket.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#home::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: var(--pageHeight);
+    position: absolute;
+    top: 0;
+    background: linear-gradient(180deg, rgba(8,2,13,1) 0%, rgba(9,21,29,1) 5%, rgba(33,13,61,1) 18%, rgba(56,34,119,1) 22%, rgba(40,143,171,1) 92%, rgba(40,143,171,1) 100%); 
+    background-size: contain;
+    background-repeat: repeat;
+    z-index: -1;
+}
