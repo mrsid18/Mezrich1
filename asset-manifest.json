@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Mezrich1/static/css/main.b2b81674.chunk.css",
-    "main.js": "/Mezrich1/static/js/main.5d3fa4fa.chunk.js",
-    "main.js.map": "/Mezrich1/static/js/main.5d3fa4fa.chunk.js.map",
+    "main.js": "/Mezrich1/static/js/main.597c62f6.chunk.js",
+    "main.js.map": "/Mezrich1/static/js/main.597c62f6.chunk.js.map",
     "runtime-main.js": "/Mezrich1/static/js/runtime-main.950d37f1.js",
     "runtime-main.js.map": "/Mezrich1/static/js/runtime-main.950d37f1.js.map",
-    "static/js/2.5429cdaa.chunk.js": "/Mezrich1/static/js/2.5429cdaa.chunk.js",
-    "static/js/2.5429cdaa.chunk.js.map": "/Mezrich1/static/js/2.5429cdaa.chunk.js.map",
+    "static/js/2.52541b74.chunk.js": "/Mezrich1/static/js/2.52541b74.chunk.js",
+    "static/js/2.52541b74.chunk.js.map": "/Mezrich1/static/js/2.52541b74.chunk.js.map",
     "index.html": "/Mezrich1/index.html",
     "static/css/main.b2b81674.chunk.css.map": "/Mezrich1/static/css/main.b2b81674.chunk.css.map",
-    "static/js/2.5429cdaa.chunk.js.LICENSE.txt": "/Mezrich1/static/js/2.5429cdaa.chunk.js.LICENSE.txt",
+    "static/js/2.52541b74.chunk.js.LICENSE.txt": "/Mezrich1/static/js/2.52541b74.chunk.js.LICENSE.txt",
     "static/media/404.jpg": "/Mezrich1/static/media/404.9f82892d.jpg",
     "static/media/about-hero.jpg": "/Mezrich1/static/media/about-hero.f8410e9f.jpg",
     "static/media/blog-post-01.jpg": "/Mezrich1/static/media/blog-post-01.78750867.jpg",
@@ -46,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.950d37f1.js",
-    "static/js/2.5429cdaa.chunk.js",
+    "static/js/2.52541b74.chunk.js",
     "static/css/main.b2b81674.chunk.css",
-    "static/js/main.5d3fa4fa.chunk.js"
+    "static/js/main.597c62f6.chunk.js"
   ]
 }
