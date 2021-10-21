@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mezrich1/static/css/main.5325cffe.chunk.css",
+    "main.css": "/Mezrich1/static/css/main.7791f8f4.chunk.css",
     "main.js": "/Mezrich1/static/js/main.13779c41.chunk.js",
     "main.js.map": "/Mezrich1/static/js/main.13779c41.chunk.js.map",
     "runtime-main.js": "/Mezrich1/static/js/runtime-main.950d37f1.js",
@@ -8,7 +8,7 @@
     "static/js/2.5d9fdd44.chunk.js": "/Mezrich1/static/js/2.5d9fdd44.chunk.js",
     "static/js/2.5d9fdd44.chunk.js.map": "/Mezrich1/static/js/2.5d9fdd44.chunk.js.map",
     "index.html": "/Mezrich1/index.html",
-    "static/css/main.5325cffe.chunk.css.map": "/Mezrich1/static/css/main.5325cffe.chunk.css.map",
+    "static/css/main.7791f8f4.chunk.css.map": "/Mezrich1/static/css/main.7791f8f4.chunk.css.map",
     "static/js/2.5d9fdd44.chunk.js.LICENSE.txt": "/Mezrich1/static/js/2.5d9fdd44.chunk.js.LICENSE.txt",
     "static/media/404.jpg": "/Mezrich1/static/media/404.9f82892d.jpg",
     "static/media/about-hero.jpg": "/Mezrich1/static/media/about-hero.f8410e9f.jpg",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.950d37f1.js",
     "static/js/2.5d9fdd44.chunk.js",
-    "static/css/main.5325cffe.chunk.css",
+    "static/css/main.7791f8f4.chunk.css",
     "static/js/main.13779c41.chunk.js"
   ]
 }
