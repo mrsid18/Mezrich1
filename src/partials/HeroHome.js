@@ -6,7 +6,7 @@ function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
-    <section>
+    <section id="hero">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
        
@@ -20,11 +20,11 @@ function HeroHome() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">First off, I want to say “thank you.”  For years, I’ve had the privilege of doing what I love - writing books and movie screenplays - for a community of readers and fans that love going on these journeys with me, diving into the same timely topics and stories that intrigue so many of us.  These topics have ranged from taking on the establishment, challenging the status quo, being entrepreneurial, digital innovation, gambling, investing, and of course, crypto. </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-              <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">Read Full Letter</a>
+              <a className="btn text-white bg-purple-600 z-60 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">Read Full Letter</a>
                
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#learnMore">Learn more</a>
+                <a className="btn text-white bg-gray-700 z-60 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#learnMore">Learn more</a>
               </div>
             </div>
           </div>
