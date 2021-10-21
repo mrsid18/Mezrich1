@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Mezrich1/static/css/main.7791f8f4.chunk.css",
-    "main.js": "/Mezrich1/static/js/main.13779c41.chunk.js",
-    "main.js.map": "/Mezrich1/static/js/main.13779c41.chunk.js.map",
+    "main.js": "/Mezrich1/static/js/main.343a7ba7.chunk.js",
+    "main.js.map": "/Mezrich1/static/js/main.343a7ba7.chunk.js.map",
     "runtime-main.js": "/Mezrich1/static/js/runtime-main.950d37f1.js",
     "runtime-main.js.map": "/Mezrich1/static/js/runtime-main.950d37f1.js.map",
     "static/js/2.5d9fdd44.chunk.js": "/Mezrich1/static/js/2.5d9fdd44.chunk.js",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.950d37f1.js",
     "static/js/2.5d9fdd44.chunk.js",
     "static/css/main.7791f8f4.chunk.css",
-    "static/js/main.13779c41.chunk.js"
+    "static/js/main.343a7ba7.chunk.js"
   ]
 }
