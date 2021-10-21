@@ -26,7 +26,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--pageHeight", document.documentElement.scrollHeight+'px');
+    // document.documentElement.style.setProperty("--pageHeight", document.documentElement.scrollHeight+'px');
     AOS.init({
       once: true,
       disable: 'phone',
@@ -45,32 +45,11 @@ function App() {
   return (
     <>
       <Switch>
-        <HashRouter exact path="/">
+        {/* <HashRouter exact path="/">
           <Home />
-        </HashRouter>
-        <HashRouter path="/features">
-          <Features />
-        </HashRouter>
-        <HashRouter path="/pricing">
-          <Pricing />
-        </HashRouter>
-        <HashRouter path="/blog">
-          <Blog />
-        </HashRouter>
-        <HashRouter path="/blog-post">
-          <BlogPost />
-        </HashRouter>
-        <HashRouter path="/about">
-          <About />
-        </HashRouter>
-        <HashRouter path="/contact">
-          <Contact />
-        </HashRouter>
-        <HashRouter path="/help">
-          <Help />
-        </HashRouter>
+        </HashRouter> */}
         <HashRouter path="*">
-          <PageNotFound />
+          <Home />
         </HashRouter>
       </Switch>
     </>
