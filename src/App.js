@@ -26,7 +26,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    // document.documentElement.style.setProperty("--pageHeight", document.documentElement.scrollHeight+'px');
+    document.documentElement.style.setProperty("--pageHeight", document.documentElement.scrollHeight+'px');
     AOS.init({
       once: true,
       disable: 'phone',

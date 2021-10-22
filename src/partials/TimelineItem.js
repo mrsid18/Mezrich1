@@ -9,9 +9,9 @@ const TimelineItem = ({time, title, content}) => {
                     <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-white bg-red-600 rounded-full">{time}</div>
                   <div className="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3" aria-hidden="true"></div>
                   <div className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2" aria-hidden="true"></div>
-                    <h4 className="h4">{title }</h4>
+                    <h4 className="h4 text-white">{title }</h4>
                 </div>
-                <p className="text-lg text-gray-400">{ content }</p>
+                <p className="text-lg text-gray-200">{ content }</p>
               </div>
             </div>
 
